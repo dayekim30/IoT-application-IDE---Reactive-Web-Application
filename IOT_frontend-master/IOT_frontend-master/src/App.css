@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  padding-top: 15px;
+  min-height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.drag-wrapper {
+  width: 150px;
+  height: 75px;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  cursor: move;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  display: inline-block;
+  background: darkgray;
+}
+.rowClass {
+   padding: 0;
+   margin: 0;
+   text-align: left;
+   background: lightblue;
+ }
+
+.errorLabel{
+  text-align: center;
+  justify-content: end;
+  align-content: center;
+}
+
+
+.drag-wrapperR {
+  width: 150px;
+  height: 75px;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  cursor: move;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  display: inline-block;
+  background: lightgray;
+}
+.inputClass {
+  width: 75px;
+  height: 40px;
+  align-content: center;
+}
+
+.inputDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.relationshipRow {
+  display: flex;
+  justify-content: center;
+  font-size: x-small;
+  line-break: auto;
+  width: 150px;
+  align-content: center;
+  text-align: right;
+  margin-left: 0px;
+}
+
+.relationshipChild{
+  display:inline-block;
+}
+
+.controlRow{
+  display: flex;
+  justify-content: center;
+
+}
+
+.controlInput {
+  width: 75px;
+  height: 25px;
+  align-content: center;
+}
+
+.appNameInput {
+  width: 175px;
+  height: 40px;
+  vertical-align: bottom;
+  margin-left: 10px;
+}
+
+
+.dragSpot {
+  width: 150px;
+  height: 75px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  text-align: center;
+  background: #61dafb;
+  position: relative;
+  z-index: 6;
+}
+
+.dragSpotDiv {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.serviceColClass{
+
+  text-align: center;
+  border-right: black;
+  border-right-style: solid;
+}
+
+.relationshipColClass{
+  justify-content: center;
+  align-content: center;
+  border-left: black;
+  border-left-style: solid;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
